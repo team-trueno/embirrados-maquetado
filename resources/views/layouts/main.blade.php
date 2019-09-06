@@ -32,7 +32,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{ route('preguntas.index') }}">Preguntas</a>
                         <a class="dropdown-item" href="{{ route('categorias.index') }}">Categorías</a>
-                        <a class="dropdown-item" href="">Niveles</a>
+                        <a class="dropdown-item" href="{{ route('niveles.index') }}">Niveles</a>
                         <a class="dropdown-item" href="">Usuarios</a>
                         <a class="dropdown-item" href="{{ route('contactos.index') }}">Mensajes</a>
                         <div class="dropdown-divider"></div>
