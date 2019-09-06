@@ -28,3 +28,5 @@ Route::resource('/respuestas', 'RespuestaController');
 Route::resource('/contactos', 'ContactoController');
 
 Route::resource('/niveles', 'NivelController');
+
+Route::resource('/jugar', 'JuegoController');
