@@ -23,7 +23,7 @@
                     <a class="nav-link" href="">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Contacto</a>
+                    <a class="nav-link" href="{{ route('contactos.create') }}">Contacto</a>
                 </li>
                 
                 <!-- si el usuario es admin -->
@@ -34,7 +34,7 @@
                         <a class="dropdown-item" href="{{ route('categorias.index') }}">Categorías</a>
                         <a class="dropdown-item" href="">Niveles</a>
                         <a class="dropdown-item" href="">Usuarios</a>
-                        <a class="dropdown-item" href="">Mensajes</a>
+                        <a class="dropdown-item" href="{{ route('contactos.index') }}">Mensajes</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="">Salir</a>
                     </div>
@@ -59,7 +59,7 @@
             </form>
         </div>
     </nav>
-    <div class="container">
+    <div class="container mt-3">
         @yield('content') 
     </div>
 </body>
