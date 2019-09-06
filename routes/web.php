@@ -26,3 +26,5 @@ Route::resource('/preguntas', 'PreguntaController');
 Route::resource('/respuestas', 'RespuestaController');
 
 Route::resource('/contactos', 'ContactoController');
+
+Route::resource('/niveles', 'NivelController');
