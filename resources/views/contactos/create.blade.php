@@ -1,13 +1,15 @@
 @extends('layouts.main')
-
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
-            
-            <h3 class="mb-5">Dejanos tu consulta y te responderemos a la brevedad</h3>
+        <div class="col-md-12">
 
-                
+            <div class="card">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h3 class="float-left">Dejanos tu consulta y te responderemos a la brevedad</h3>
+                </div>
+
+                <div class="card-body">
                     <form method="POST" action="{{ route('contactos.store') }}">
                         @csrf
 
@@ -89,8 +91,12 @@
                             </div>
                         </div>
                     </form>
+                </div>
 
+            </div>
         </div>
     </div>
+
 </div>
+
 @endsection
