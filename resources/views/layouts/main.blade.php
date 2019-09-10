@@ -48,7 +48,7 @@
                 <li class="nav-item dropdown mr-4">
                     <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="avatar.png"></a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="usuarios/{{ $usuario['id'] }}">Perfil</a>
+                        <a class="dropdown-item" href="{{-- usuarios/{{ $usuario['id'] }} --}}">Perfil</a>
                         <a class="dropdown-item" href="{{ route('jugar.index') }}">Jugar!</a>
                         <a class="dropdown-item" href="">Ranking</a>
                         <div class="dropdown-divider"></div>
